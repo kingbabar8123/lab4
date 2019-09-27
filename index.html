@@ -10,17 +10,26 @@
 <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
   <fieldset>
     <legend><strong>My Info:</strong></legend>
+	<div>
      First Name:
-	 <input type="text" name="first_name_field"><br>
+	 <input type="text" name="first_name_field">
+	 </div>
+	 <div>
 	 Last Name:
 	 <input type="text" name="last_name_field"><br>
+	 <div>
 	 Phone Number:
 	 <input type="text" name="phone_field"><br>
+	 </div>
+	 <div>
 	 Email Address:
 	 <input type="email" name="email_field"><br><br>
+	 </div>
+	 <div>
 	 <label>Gender</label>
 	 <input type="radio" name="gender_field" value="male" checked> Male
-	 <input type="radio" name="gender_field" value="female"> Female<br><br>
+	 <input type="radio" name="gender_field" value="female"> Female
+	 </div>
 	 <select name="age_field">
 	   <option value="under 18">Under 18</option>
 	   <option value="18-24">18-24</option>
@@ -34,15 +43,31 @@
 <br>
   <fieldset>
     <legend><strong>My Availability:</strong></legend>
-	<input type="checkbox" name="available_field[]" value="Sunday">Sunday<br>
-	<input type="checkbox" name="available_field[]" value="Monday">Monday<br>
-	<input type="checkbox" name="available_field[]" value="Tuesday">Tuesday<br>
-	<input type="checkbox" name="available_field[]" value="Wednesday">Wednesday<br>
-	<input type="checkbox" name="available_field[]" value="Thursday">Thursday<br>
-	<input type="checkbox" name="available_field[]" value="Friday">Friday<br>
-	<input type="checkbox" name="available_field[]" value="Saturday">Saturday<br>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Sunday">Sunday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Monday">Monday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Tuesday">Tuesday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Wednesday">Wednesday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Thursday">Thursday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Friday">Friday
+	</div>
+	<div>
+	<input type="checkbox" name="available_field[]" value="Saturday">Saturday
+	</div>
 	<p><strong>Comments</strong></p>
-	<textarea name="comments_field" cols="100" rows="6">Enter your comments...</textarea><br><br>
+	<div>
+	<textarea name="comments_field" cols="100" rows="6">Enter your comments...</textarea>
+	</div>
 	<input type="hidden" name="hidden_field" value="bkamran">
 	<p><strong>Please hit submit once you are done</strong></p>
 	<input type="submit" value="Submit">
